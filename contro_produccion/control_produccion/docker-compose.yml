@@ -1,0 +1,19 @@
+version: '3'
+services:
+  control_produccion:
+   container_name: control_produccion
+# Se habilita la opción de arranque automático
+   restart: always
+# Se hace uso del Dockefile del directorio raíz
+   build: .
+# Se nombra la Imagen para borrar en caso necesario   
+   image: control_produccion
+# Se establece una rotación de log para no saturar el tamaño en disco   
+   logging:
+      driver: json-file
+      options:
+        max-size: 90m
+        max-file: '3'
+# Carpeta WEBDAV externa
+   volumes:
+    - /media/WEBDAV/SAP_INTERFACES/PRODUCCION/IN/PROCESADOS/prueba_alfonso:/media/WEBDAV/SAP_INTERFACES/PRODUCCION/IN/PROCESADOS/prueba_alfonso 
