@@ -1,0 +1,27 @@
+{
+  "name": "ds-client",
+  "version": "1.0.0",
+  "description": "NodeJS client for Deepstream.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "environment": "node environment.js",
+    "device": "node device.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://10.1.2.63:9090/polaris/deepstream-client.git"
+  },
+  "keywords": [
+    "Deepstream"
+  ],
+  "author": "B. Ronquillo",
+  "license": "ISC",
+  "dependencies": {
+    "@deepstream/client": "^4.0.3",
+    "deepstream.io-client-js": "^2.3.0",
+    "moment": "^2.24.0",
+    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.31"
+  }
+}

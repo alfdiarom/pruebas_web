@@ -1,0 +1,38 @@
+{
+    "balena": {
+        "api_port": "48484",
+        "ip_address": "10.10.3.7",
+        "os_version": "balenaOS 2.27.0+rev1",
+        "supervisor_version": "8.3.5",
+        "update_pending": false,
+        "update_failed": false,
+        "update_downloaded": false,
+        "commit": "e4f85372bcbf1be4ae3b43cb4d3a549209ad9480",
+        "status": "Idle",
+        "download_progress": null
+    },
+    "ping": 200,
+    "stats": {
+        "tstamp": "2019-04-24T06:15:07.377Z",
+        "uptime": 0.7546412037037037,
+        "load": [
+            5.908203125,
+            9.765625,
+            10.595703125
+        ],
+        "hostname": "db89534",
+        "mem": {
+            "used": 30.847916341376507,
+            "free": 34.159270068901456,
+            "swapused": 0,
+            "swapfree": 0
+        },
+        "nw": {
+            "wlan0": {
+                "rx": 14069080,
+                "tx": 28414436
+            }
+        }
+    },
+    "lastSeen": "2019-04-24T06:15:07.476Z"
+}

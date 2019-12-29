@@ -1,0 +1,1186 @@
+{
+    "__ds": {
+        "_v": 1
+    },
+    "data": "1559831890160",
+    "ds_id": "1559830298634",
+    "key": "timestamp"
+},
+{
+    "close": 128,
+    "ds_id": "8f73ecc5-a887-4080-afe2-227f68df68e6",
+    "name": "Apple",
+    "open": 129
+},
+{
+    "GATEWAY": "BoeingSTR_vertex1",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 4725
+    },
+    "address": "ff:18:25:34:f0:48",
+    "b_instance": "000000000002",
+    "b_namespace": "00000000000000000002",
+    "beaconType": "eddystoneUid",
+    "distance_m": 7.5106216183873284,
+    "ds_id": "beacon6",
+    "id": "ff182534f048",
+    "lastSeen": "2019-06-17T09:50:39.173Z",
+    "localName": "2",
+    "proximity": "NEAR",
+    "rssi": -69.51351765955948,
+    "txPower": -30,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 2.2,
+    "workspace": "vertex1"
+},
+{
+    "GATEWAY": "gateway-64vertex5",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 27553
+    },
+    "address": "c6:d8:e1:6a:82:38",
+    "b_instance": "000000000005",
+    "b_namespace": "00000000000000000002",
+    "beaconType": "eddystoneUid",
+    "distance_m": 6.517770696206291,
+    "ds_id": "beacon2",
+    "id": "c6d8e16a8238",
+    "lastSeen": "2019-06-17T09:50:37.150Z",
+    "localName": "5",
+    "proximity": "NEAR",
+    "rssi": -68.28198154687205,
+    "txPower": -30,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 2.5,
+    "workspace": "64vertex5"
+},
+{
+    "__ds": {
+        "_v": 0
+    },
+    "ds_id": "TempHum"
+},
+{
+    "__ds": {
+        "_v": 1
+    },
+    "data": "1559835000069",
+    "ds_id": "1559835000069",
+    "key": "timestamp"
+},
+{
+    "GATEWAY": "S2f_vertex4",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 4411
+    },
+    "address": "d9:9f:7f:9c:77:11",
+    "b_instance": "000000002553",
+    "b_namespace": "00000000000000000001",
+    "beaconType": "eddystoneUid",
+    "distance_m": 16.87565195083838,
+    "ds_id": "beacon7",
+    "id": "d99f7f9c7711",
+    "lastSeen": "2019-06-17T09:51:23.314Z",
+    "localName": "rogelio.garcia",
+    "proximity": "NEAR",
+    "rssi": -76.54521119531437,
+    "txPower": -67,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 1.2553,
+    "workspace": "vertex4"
+},
+{
+    "1559831890160": {
+        "data": "1559831914402",
+        "key": "timestamp"
+    },
+    "__ds": {
+        "_v": 1
+    },
+    "ds_id": "1559831890160"
+},
+{
+    "__ds": {
+        "_v": 1
+    },
+    "data": "1559834856779",
+    "ds_id": "1559834856779",
+    "key": "timestamp"
+},
+{
+    "GATEWAY": "S3_vertex3",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 4885
+    },
+    "address": "fc:91:bd:66:3a:75",
+    "b_instance": "333333333333",
+    "b_namespace": "33333333333333333333",
+    "beaconType": "eddystoneUid",
+    "distance_m": 7.952759194789818,
+    "ds_id": "beacon8",
+    "id": "fc91bd663a75",
+    "lastSeen": "2019-06-17T09:51:25.872Z",
+    "localName": "iBKS105",
+    "proximity": "NEAR",
+    "rssi": -70.01035664903677,
+    "txPower": -67,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 33333333333333330000,
+    "workspace": "vertex3"
+},
+{
+    "__ds": {
+        "_v": 34169
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.4.3.161",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/067ecd7",
+    "lastSeen": "2019-06-17T09:51:26.657Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "gateway_TVPi_A320_C4",
+        "hostname": "067ecd7",
+        "load": [
+            29.78515625,
+            54.345703125,
+            62.060546875
+        ],
+        "mem": {
+            "free": 18.174611753684285,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 38.35140945723585
+        },
+        "nw": {
+            "eth0": {
+                "rx": 2119354389,
+                "tx": 1448823589
+            }
+        },
+        "tstamp": "2019-06-17T09:51:26.569Z",
+        "uptime": 17.103194444444444
+    }
+},
+{
+    "__ds": {
+        "_v": 37001
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.4.3.166",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/6120828",
+    "lastSeen": "2019-06-17T09:51:26.951Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "gateway-TVPi_19.1_3.2",
+        "hostname": "6120828",
+        "load": [
+            52.587890625,
+            98.33984375,
+            110.595703125
+        ],
+        "mem": {
+            "free": 16.18643830296625,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 35.191390720522705
+        },
+        "nw": {
+            "eth0": {
+                "rx": 1670072719,
+                "tx": 2434511073
+            }
+        },
+        "tstamp": "2019-06-17T09:51:26.887Z",
+        "uptime": 38.01690972222222
+    }
+},
+{
+    "GATEWAY": "BoeingTIP_vertex2",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 7451
+    },
+    "address": "c3:b3:1e:7c:f5:f2",
+    "b_instance": "000000002544",
+    "b_namespace": "00000000000000000001",
+    "beaconType": "eddystoneUid",
+    "distance_m": 13.807841019127512,
+    "ds_id": "beacon5",
+    "id": "c3b31e7cf5f2",
+    "lastSeen": "2019-06-17T09:51:13.271Z",
+    "localName": "bernardo.ronquillo",
+    "proximity": "NEAR",
+    "rssi": -74.80251556030633,
+    "txPower": -52,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 1.2544,
+    "workspace": "vertex2"
+},
+{
+    "GATEWAY": "gateway-64vertex5",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 96120
+    },
+    "address": "fb:29:d8:06:13:bf",
+    "b_instance": "000000000004",
+    "b_namespace": "00000000000000000002",
+    "beaconType": "eddystoneUid",
+    "distance_m": 12.59643808889425,
+    "ds_id": "beacon1",
+    "id": "fb29d80613bf",
+    "lastSeen": "2019-06-17T09:50:31.023Z",
+    "localName": "4",
+    "proximity": "FAR",
+    "rssi": -74.00495512928825,
+    "txPower": -67,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 2.4,
+    "workspace": "64vertex5"
+},
+{
+    "__ds": {
+        "_v": 45171
+    },
+    "balena": {
+        "api_port": "48484",
+        "commit": "53b9b5def16fcaf31db5b2becec60817964d594c",
+        "download_progress": null,
+        "ip_address": "10.4.3.61",
+        "os_version": "balenaOS 2.29.2+rev2",
+        "status": "Idle",
+        "supervisor_version": "9.0.1",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/19d91ac",
+    "lastSeen": "2019-06-17T09:51:27.042Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "PRE-Walls",
+        "hostname": "19d91ac",
+        "load": [
+            111.5234375,
+            74.462890625,
+            67.67578125
+        ],
+        "mem": {
+            "free": 34.1708804253394,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 34.86910324009016
+        },
+        "nw": {
+            "eth0": {
+                "rx": 2146143595,
+                "tx": 1697831744
+            },
+            "resin-vpn": {
+                "rx": 552552,
+                "tx": 485388
+            }
+        },
+        "tstamp": "2019-06-17T09:51:22.945Z",
+        "uptime": 4.081932870370371
+    }
+},
+{
+    "GATEWAY": "BoeingSTR_vertex1",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 12414
+    },
+    "address": "e4:66:07:1e:12:92",
+    "b_instance": "000000001000",
+    "b_namespace": "00000000000000000001",
+    "beaconType": "eddystoneUid",
+    "distance_m": 14.410117350569106,
+    "ds_id": "beacon3",
+    "id": "e466071e1292",
+    "lastSeen": "2019-06-17T09:51:05.236Z",
+    "localName": "iBKS Card Beacon",
+    "proximity": "NEAR",
+    "rssi": -75.17335035118207,
+    "txPower": -24,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 1.1,
+    "workspace": "vertex1"
+},
+{
+    "GATEWAY": "S3_vertex3",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 9066
+    },
+    "address": "f3:96:b0:ee:fe:11",
+    "b_instance": "000000001001",
+    "b_namespace": "00000000000000000001",
+    "beaconType": "eddystoneUid",
+    "distance_m": 14.418297921753144,
+    "ds_id": "beacon4",
+    "id": "f396b0eefe11",
+    "lastSeen": "2019-06-17T09:51:23.272Z",
+    "localName": "iBKS Card Beacon",
+    "proximity": "NEAR",
+    "rssi": -75.17827990001206,
+    "txPower": -24,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 1.1001,
+    "workspace": "vertex3"
+},
+{
+    "__ds": {
+        "_v": 4108
+    },
+    "balena": {
+        "api_port": "48484",
+        "commit": "ef99d29051400ffa8ee67e804684df351a2c07ec",
+        "download_progress": null,
+        "ip_address": "10.6.3.42",
+        "os_version": "balenaOS 2.27.0+rev1",
+        "status": "Idle",
+        "supervisor_version": "8.3.5",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/e593490",
+    "lastSeen": "2019-06-17T09:40:50.853Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "TV3_SUBCONJUNTOS",
+        "hostname": "e593490",
+        "load": [
+            44.3359375,
+            56.25,
+            58.59375
+        ],
+        "mem": {
+            "free": 4.799881494292909,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 47.83626995279789
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 962189,
+                "tx": 392434
+            },
+            "wlan0": {
+                "rx": 2866909050,
+                "tx": 388781573
+            }
+        },
+        "tstamp": "2019-06-17T09:40:34.581Z",
+        "uptime": 14.012048611111112
+    }
+},
+{
+    "__ds": {
+        "_v": 12966
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "53b9b5def16fcaf31db5b2becec60817964d594c",
+        "download_progress": null,
+        "ip_address": "10.6.3.47",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/57b97d5",
+    "lastSeen": "2019-06-17T09:51:05.165Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "BoeingSTR_vertex1",
+        "hostname": "57b97d5",
+        "load": [
+            111.572265625,
+            96.875,
+            77.392578125
+        ],
+        "mem": {
+            "free": 55.8762416075139,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 21.959988309572136
+        },
+        "nw": {
+            "wlan0": {
+                "rx": 80242016,
+                "tx": 167360659
+            }
+        },
+        "tstamp": "2019-06-17T09:51:05.023Z",
+        "uptime": 0.04173611111111111
+    }
+},
+{
+    "__ds": {
+        "_v": 12
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "e8b6a3e734d99badd7ce10833c817eb8bda85362",
+        "download_progress": null,
+        "ip_address": "10.6.3.49",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/cf56741",
+    "lastSeen": "2019-06-13T09:15:46.140Z",
+    "ping": 200,
+    "stats": {
+        "hostname": "cf56741",
+        "load": [
+            89.16015625,
+            71.435546875,
+            49.365234375
+        ],
+        "mem": {
+            "free": 30.82789848544902,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 32.68315337280854
+        },
+        "nw": {
+            "wlan0": {
+                "rx": 12646344,
+                "tx": 13164681
+            }
+        },
+        "tstamp": "2019-06-13T09:14:46.042Z",
+        "uptime": 0.008518518518518519
+    }
+},
+{
+    "GATEWAY": "BoeingTIP_vertex2",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 5361
+    },
+    "address": "d7:b3:18:bd:35:3b",
+    "b_instance": "000000000998",
+    "b_namespace": "00000000000000000001",
+    "beaconType": "eddystoneUid",
+    "distance_m": 20.712667388518753,
+    "ds_id": "beacon9",
+    "id": "d7b318bd353b",
+    "lastSeen": "2019-06-17T09:51:12.291Z",
+    "localName": "0998",
+    "proximity": "NEAR",
+    "rssi": -78.32472062347004,
+    "txPower": -67,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 1.998,
+    "workspace": "vertex2"
+},
+{
+    "GATEWAY": "BoeingSTR_vertex1",
+    "PLANT": "AER",
+    "PROGRAM": "sistemasA350",
+    "__ds": {
+        "_v": 2966
+    },
+    "address": "e5:1f:85:a9:cb:01",
+    "b_instance": "000000000830",
+    "b_namespace": "00000000000000000001",
+    "beaconType": "eddystoneUid",
+    "distance_m": 21.140844320802202,
+    "ds_id": "beacon10",
+    "id": "e51f85a9cb01",
+    "lastSeen": "2019-06-17T09:51:04.963Z",
+    "localName": null,
+    "proximity": "NEAR",
+    "rssi": -78.50244656249623,
+    "txPower": -67,
+    "txPowerLevel": null,
+    "type": "KALMAN",
+    "uid": 1.83,
+    "workspace": "vertex1"
+},
+{
+    "__ds": {
+        "_v": 5536
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "53b9b5def16fcaf31db5b2becec60817964d594c",
+        "download_progress": null,
+        "ip_address": "10.6.3.45",
+        "os_version": "balenaOS 2.32.0+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.14.0",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/3868b9d",
+    "lastSeen": "2019-06-17T09:51:17.016Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "S2f_vertex4",
+        "hostname": "3868b9d",
+        "load": [
+            43.408203125,
+            56.0546875,
+            44.677734375
+        ],
+        "mem": {
+            "free": 50.94664440681087,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 22.19940186646489
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 39058,
+                "tx": 32792
+            },
+            "wlan0": {
+                "rx": 6746313,  
+                "tx": 12408155
+            }
+        },
+        "tstamp": "2019-06-17T09:51:16.957Z",
+        "uptime": 0.01695601851851852
+    }
+},
+{
+    "close": 40,
+    "ds_id": "fd27c225-61ef-40c7-a333-306c08912ac1",
+    "open": 38,
+    "stock": "IBM"
+},
+{
+    "__ds": {
+        "_v": 2872
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "53b9b5def16fcaf31db5b2becec60817964d594c",
+        "download_progress": null,
+        "ip_address": "10.6.3.43",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/1259256",
+    "lastSeen": "2019-06-17T09:50:31.203Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "BoeingTIP_vertex2",
+        "hostname": "1259256",
+        "load": [
+            8.0078125,
+            16.162109375,
+            10.693359375
+        ],
+        "mem": {
+            "free": 60.96478058428117,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 18.267094248069277
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 25177,
+                "tx": 24578
+            },
+            "wlan0": {
+                "rx": 660391,
+                "tx": 4490820
+            }
+        },
+        "tstamp": "2019-06-17T09:50:31.142Z",
+        "uptime": 0.010532407407407407
+    }
+},
+{
+    "__ds": {
+        "_v": 1
+    },
+    "ds_id": "process.env.RECORD",
+    "process": {
+        "env": {
+            "RECORD": {
+                "data": "1559831964235",
+                "key": "timestamp"
+            }
+        }
+    }
+},
+{
+    "__ds": {
+        "_v": 0
+    },
+    "ds_id": "hostname/b2694fb"
+},
+{
+    "__ds": {
+        "_v": 34016
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.4.3.160",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/b76c649",
+    "lastSeen": "2019-06-17T07:31:33.669Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "gateway-TVPi_BF_FG",
+        "hostname": "b76c649",
+        "load": [
+            45.8984375,
+            56.93359375,
+            53.271484375
+        ],
+        "mem": {
+            "free": 20.906248373549204,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 30.076027816812594
+        },
+        "nw": {
+            "eth0": {
+                "rx": 3737373441,
+                "tx": 330894229
+            }
+        },
+        "tstamp": "2019-06-17T07:31:33.605Z",
+        "uptime": 16.99798611111111
+    }
+},
+{
+    "__ds": {
+        "_v": 555
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "e841198a919dd7f0fbc4a98ab871c3246681c80b",
+        "download_progress": null,
+        "ip_address": "10.6.3.49",
+        "os_version": "balenaOS 2.31.5+rev5",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/02abfeb",
+    "lastSeen": "2019-06-17T09:51:08.444Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "gateway-64vertex5",
+        "hostname": "02abfeb",
+        "load": [
+            14.55078125,
+            32.666015625,
+            42.3828125
+        ],
+        "mem": {
+            "free": 42.43785456627312,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 31.574564511544295
+        },
+        "nw": {
+            "wlan0": {
+                "rx": 3144803,
+                "tx": 11954914
+            }
+        },
+        "tstamp": "2019-06-17T09:50:08.356Z",
+        "uptime": 0.035937500000000004
+    }
+},
+{
+    "__ds": {
+        "_v": 31408
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.4.3.163",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/3ec4109",
+    "lastSeen": "2019-06-14T12:49:41.435Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "gateway-TVPi_Puertas",
+        "hostname": "3ec4109",
+        "load": [
+            63.57421875,
+            55.56640625,
+            50.48828125
+        ],
+        "mem": {
+            "free": 14.715526249414479,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 41.73602853745541
+        },
+        "nw": {
+            "eth0": {
+                "rx": 2327894453,
+                "tx": 3298962692
+            },
+            "resin-vpn": {
+                "rx": 280903,
+                "tx": 3473245
+            }
+        },
+        "tstamp": "2019-06-14T12:49:41.341Z",
+        "uptime": 3.1661689814814817
+    }
+},
+{
+    "__ds": {
+        "_v": 11122
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.4.3.158",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/318ab42",
+    "lastSeen": "2019-06-17T08:01:21.196Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "gateway-TVPi_BF_Pto_R",
+        "hostname": "318ab42",
+        "load": [
+            26.46484375,
+            32.51953125,
+            38.818359375
+        ],
+        "mem": {
+            "free": 17.22056074018024,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 32.41371303202457
+        },
+        "nw": {
+            "eth0": {
+                "rx": 3411920380,
+                "tx": 57695036
+            }
+        },
+        "tstamp": "2019-06-17T08:01:21.118Z",
+        "uptime": 5.690810185185185
+    }
+},
+{
+    "__ds": {
+        "_v": 23
+    },
+    "data": "1559834789144",
+    "ds_id": "record",
+    "key": "timestamp"
+},
+{
+    "__ds": {
+        "_v": 23011
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "53b9b5def16fcaf31db5b2becec60817964d594c",
+        "download_progress": null,
+        "ip_address": "10.6.3.64",
+        "os_version": "balenaOS 2.32.0+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.14.0",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/dd5b049",
+    "lastSeen": "2019-06-17T09:50:58.940Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "S3_vertex3",
+        "hostname": "dd5b049",
+        "load": [
+            98.681640625,
+            64.501953125,
+            54.6875
+        ],
+        "mem": {
+            "free": 49.75237912217698,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 23.378853937712442
+        },
+        "nw": {
+            "wlan0": {
+                "rx": 408585884,
+                "tx": 721100264
+            }
+        },
+        "tstamp": "2019-06-17T09:49:58.829Z",
+        "uptime": 3.990335648148148
+    }
+},
+{
+    "__ds": {
+        "_v": 796
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "53b9b5def16fcaf31db5b2becec60817964d594c",
+        "download_progress": null,
+        "ip_address": "10.10.3.9",
+        "os_version": "balenaOS 2.32.0+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.14.0",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/43e610f",
+    "lastSeen": "2019-06-14T11:55:49.240Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "Asus",
+        "hostname": "43e610f",
+        "load": [
+            32.861328125,
+            22.4609375,
+            18.994140625
+        ],
+        "mem": {
+            "free": 160.12122813549686,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 21.960789023809237
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 50382,
+                "tx": 43604
+            },
+            "wlan0": {
+                "rx": 27197506,
+                "tx": 93105330
+            }
+        },
+        "tstamp": "2019-06-14T11:55:49.112Z",
+        "uptime": 0.17706018518518518
+    }
+},
+{
+    "__ds": {
+        "_v": 10598
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.6.3.59",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/1975480",
+    "lastSeen": "2019-06-13T16:07:03.298Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "RecepcionAER-S1",
+        "hostname": "1975480",
+        "load": [
+            26.66015625,
+            25.048828125,
+            25.732421875
+        ],
+        "mem": {
+            "free": 11.007818974525277,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 42.43785456627312
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 313636,
+                "tx": 4587037
+            },
+            "wlan0": {
+                "rx": 2198732315,
+                "tx": 1162210842
+            }
+        },
+        "tstamp": "2019-06-13T16:06:59.188Z",
+        "uptime": 6.3777083333333335
+    }
+},
+{
+    "__ds": {
+        "_v": 22935
+    },
+    "balena": {
+        "api_port": "48484",
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.6.3.40",
+        "os_version": "Resin OS 2.13.6+rev1",
+        "status": "Idle",
+        "supervisor_version": "7.14.0",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/c4936ce",
+    "lastSeen": "2019-06-17T09:40:27.889Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "TV1_GRADA1",
+        "hostname": "c4936ce",
+        "load": [
+            20.703125,
+            33.7890625,
+            36.083984375
+        ],
+        "mem": {
+            "free": 9.363552288641468,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 51.320577955536336
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 266050,
+                "tx": 3733618
+            },
+            "wlan0": {
+                "rx": 1070280866,
+                "tx": 706158073
+            }
+        },
+        "tstamp": "2019-06-17T09:40:11.631Z",
+        "uptime": 13.993796296296296
+    }
+},
+{
+    "__ds": {
+        "_v": 0
+    },
+    "ds_id": "hostname/6ff96ea"
+},
+{
+    "__ds": {
+        "_v": 2850
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.10.3.5",
+        "os_version": "balenaOS 2.31.5+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.11.3",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/e3fd3d4",
+    "lastSeen": "2019-06-17T09:51:25.998Z",
+    "ping": 200,
+    "stats": {
+        "hostname": "e3fd3d4",
+        "load": [
+            36.572265625,
+            51.46484375,
+            53.22265625
+        ],
+        "location": "StratoPi-OOCC",
+        "mem": {
+            "free": 29.053115378917994,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 34.00873579232675
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 824190,
+                "tx": 12445395
+            },
+            "wlan0": {
+                "rx": 223102840,
+                "tx": 1761879259
+            }
+        },
+        "tstamp": "2019-06-17T09:50:25.788Z",
+        "uptime": 2.9129513888888887
+    }
+},
+{
+    "__ds": {
+        "_v": 23660
+    },
+    "balena": {
+        "api_port": "48484",
+        "commit": "413cdfa1bc0e9f3b4534b2dfa7d7bd7135389d15",
+        "download_progress": null,
+        "ip_address": "10.6.3.44",
+        "os_version": "balenaOS 2.26.0+rev1",
+        "status": "Idle",
+        "supervisor_version": "8.0.0",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/cbc1ff0",
+    "lastSeen": "2019-06-17T09:47:09.229Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "TV4_FRONT",
+        "hostname": "cbc1ff0",
+        "load": [
+            10.25390625,
+            9.27734375,
+            14.16015625
+        ],
+        "mem": {
+            "free": 23.09139752659372,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 26.75186266149405
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 630,
+                "tx": 3853
+            },
+            "wlan0": {
+                "rx": 1485067263,
+                "tx": 1570672492
+            }
+        },
+        "tstamp": "2019-06-17T09:47:09.153Z",
+        "uptime": 14.001793981481482
+    }
+},
+{
+    "__ds": {
+        "_v": 541
+    },
+    "balena": {
+        "api_port": 48484,
+        "commit": "53b9b5def16fcaf31db5b2becec60817964d594c",
+        "download_progress": null,
+        "ip_address": "10.10.3.7",
+        "os_version": "balenaOS 2.32.0+rev1",
+        "status": "Idle",
+        "supervisor_version": "9.14.0",
+        "update_downloaded": false,
+        "update_failed": false,
+        "update_pending": false
+    },
+    "ds_id": "hostname/4c0f995",
+    "lastSeen": "2019-06-14T06:14:41.794Z",
+    "ping": 200,
+    "stats": {
+        "GATEWAY": "gateway-vertex5",
+        "hostname": "4c0f995",
+        "load": [
+            7.2265625,
+            13.037109375,
+            15.771484375
+        ],
+        "mem": {
+            "free": 49.894906256380686,
+            "swapfree": 0,
+            "swapused": 0,
+            "used": 23.04415538660485
+        },
+        "nw": {
+            "resin-vpn": {
+                "rx": 546957,
+                "tx": 8095711
+            },
+            "wlan0": {
+                "rx": 37267657,
+                "tx": 187597709
+            }
+        },
+        "tstamp": "2019-06-14T06:14:41.663Z",
+        "uptime": 0.7028472222222222
+    }
+}

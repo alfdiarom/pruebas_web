@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Web Socket Demo</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/deepstream.io-client-js/2.1.1/deepstream.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<script type="text/javascript">
+var groupBy = function(xs, key) {
+  return xs.reduce(function(rv, x) {
+    (rv[x[key]] = rv[x[key]] || []).push(x);
+    return rv;
+  }, {});
+};
+			var events = [];
+			//var ds = deepstream( 'ws://v500test01.sev.alestis:6020/deepstream' );
+//			var ds = deepstream( 'ws://adn-deepstream.sev.alestis:6020/deepstream' );
+			var ds = deepstream( 'ws://35.228.148.119:6020/deepstream' );
+			ds.login();
+//			ds.event.subscribe( 'PRESENCIA', function( eventData ){ events.push(eventData); console.log(eventData);});
+			ds.event.subscribe( 'OOCC', function( eventData ){  events.push(eventData); console.log(eventData); });
+		</script>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,381 @@
+{
+    name: 'test/johndoe',
+    usages: 1,
+    _recordOptions: {},
+    _connection: 
+     Connection {
+       _client: 
+        Client {
+          _url: 'adn-iot-pro.sev.alestis: 6020',
+          _options: [Object
+            ],
+          _connection: [Circular
+            ],
+          _callbacks: [Object
+            ],
+          _ackTimeoutRegistry: [Object
+            ],
+          event: [Object
+            ],
+          rpc: [Object
+            ],
+          record: [Object
+            ],
+          presence: [Object
+            ],
+          _messageCallbacks: [Object
+            ]
+        },
+       _options: { heartbeatInterval: 30000,
+          reconnectIntervalIncrement: 4000,
+          maxReconnectInterval: 180000,
+          maxReconnectAttempts: 5,
+          rpcAckTimeout: 6000,
+          rpcResponseTimeout: 10000,
+          subscriptionTimeout: 2000,
+          maxMessagesPerPacket: 100,
+          timeBetweenSendingQueuedPackages: 16,
+          recordReadAckTimeout: 15000,
+          recordReadTimeout: 15000,
+          recordDeleteTimeout: 15000,
+          path: '/deepstream',
+          mergeStrategy: [Function: REMOTE_WINS
+            ],
+          recordDeepCopy: true,
+          nodeSocketOptions: null
+        },
+       _authParams: {},
+       _authCallback: undefined,
+       _deliberateClose: false,
+       _redirecting: false,
+       _tooManyAuthAttempts: false,
+       _connectionAuthenticationTimeout: false,
+       _challengeDenied: false,
+       _queuedMessages: [ 'R\u001fCR\u001ftest/johndoe\u001e'
+        ],
+       _reconnectTimeout: null,
+       _reconnectionAttempt: 0,
+       _currentPacketMessageCount: 1,
+       _sendNextPacketTimeout: 
+        Timeout {
+          _called: false,
+          _idleTimeout: 16,
+          _idlePrev: [Object
+            ],
+          _idleNext: [Object
+            ],
+          _idleStart: 90,
+          _onTimeout: [Function: bound
+            ],
+          _timerArgs: undefined,
+          _repeat: null,
+          _destroyed: false,
+            [Symbol(asyncId)
+            ]: 10,
+            [Symbol(triggerAsyncId)
+            ]: 1
+        },
+       _currentMessageResetTimeout: undefined,
+       _endpoint: 
+        WebSocket {
+          domain: null,
+          _events: [Object
+            ],
+          _eventsCount: 4,
+          _maxListeners: undefined,
+          readyState: 0,
+          bytesReceived: 0,
+          extensions: {},
+          protocol: '',
+          _binaryType: 'nodebuffer',
+          _finalize: [Function: bound finalize
+            ],
+          _closeFrameReceived: false,
+          _closeFrameSent: false,
+          _closeMessage: '',
+          _closeTimer: null,
+          _finalized: false,
+          _closeCode: 1006,
+          _receiver: null,
+          _sender: null,
+          _socket: null,
+          _ultron: null,
+          protocolVersion: 13,
+          _isServer: false,
+          url: 'ws: //adn-iot-pro.sev.alestis:6020/deepstream',
+          _req: [Object
+            ]
+        },
+       _lastHeartBeat: null,
+       _heartbeatInterval: null,
+       _originalUrl: 'ws: //adn-iot-pro.sev.alestis:6020/deepstream',
+       _url: 'ws: //adn-iot-pro.sev.alestis:6020/deepstream',
+       _state: 'CLOSED'
+    },
+    _client: 
+     Client {
+       _url: 'adn-iot-pro.sev.alestis: 6020',
+       _options: { heartbeatInterval: 30000,
+          reconnectIntervalIncrement: 4000,
+          maxReconnectInterval: 180000,
+          maxReconnectAttempts: 5,
+          rpcAckTimeout: 6000,
+          rpcResponseTimeout: 10000,
+          subscriptionTimeout: 2000,
+          maxMessagesPerPacket: 100,
+          timeBetweenSendingQueuedPackages: 16,
+          recordReadAckTimeout: 15000,
+          recordReadTimeout: 15000,
+          recordDeleteTimeout: 15000,
+          path: '/deepstream',
+          mergeStrategy: [Function: REMOTE_WINS
+            ],
+          recordDeepCopy: true,
+          nodeSocketOptions: null
+        },
+       _connection: 
+        Connection {
+          _client: [Circular
+            ],
+          _options: [Object
+            ],
+          _authParams: {},
+          _authCallback: undefined,
+          _deliberateClose: false,
+          _redirecting: false,
+          _tooManyAuthAttempts: false,
+          _connectionAuthenticationTimeout: false,
+          _challengeDenied: false,
+          _queuedMessages: [Array
+            ],
+          _reconnectTimeout: null,
+          _reconnectionAttempt: 0,
+          _currentPacketMessageCount: 1,
+          _sendNextPacketTimeout: [Object
+            ],
+          _currentMessageResetTimeout: undefined,
+          _endpoint: [Object
+            ],
+          _lastHeartBeat: null,
+          _heartbeatInterval: null,
+          _originalUrl: 'ws: //adn-iot-pro.sev.alestis:6020/deepstream',
+          _url: 'ws: //adn-iot-pro.sev.alestis:6020/deepstream',
+          _state: 'CLOSED'
+        },
+       _callbacks: { connectionStateChanged: [Array
+            ]
+        },
+       _ackTimeoutRegistry: 
+        AckTimeoutRegistry {
+          _options: [Object
+            ],
+          _client: [Circular
+            ],
+          _register: {},
+          _counter: 1
+        },
+       event: 
+        EventHandler {
+          _options: [Object
+            ],
+          _connection: [Object
+            ],
+          _client: [Circular
+            ],
+          _emitter: Emitter {},
+          _listener: {},
+          _ackTimeoutRegistry: [Object
+            ],
+          _resubscribeNotifier: [Object
+            ]
+        },
+       rpc: 
+        RpcHandler {
+          _options: [Object
+            ],
+          _connection: [Object
+            ],
+          _client: [Circular
+            ],
+          _rpcs: {},
+          _providers: {},
+          _ackTimeoutRegistry: [Object
+            ],
+          _resubscribeNotifier: [Object
+            ]
+        },
+       record: 
+        RecordHandler {
+          _options: [Object
+            ],
+          _connection: [Object
+            ],
+          _client: [Circular
+            ],
+          _records: [Object
+            ],
+          _lists: {},
+          _listener: {},
+          _writeCallbacks: {},
+          _destroyEventEmitter: Emitter {},
+          _hasRegistry: [Object
+            ],
+          _snapshotRegistry: [Object
+            ]
+        },
+       presence: 
+        PresenceHandler {
+          _options: [Object
+            ],
+          _connection: [Object
+            ],
+          _client: [Circular
+            ],
+          _queryEmitter: Emitter {},
+          _subscribeEmitter: Emitter {},
+          _ackTimeoutRegistry: [Object
+            ],
+          _resubscribeNotifier: [Object
+            ],
+          _counter: 1,
+          _flush: [Function: bound _flush
+            ],
+          _flushTimeout: null,
+          _pendingSubscribes: {},
+          _pendingUnsubscribes: {}
+        },
+       _messageCallbacks: { E: [Function: bound
+            ],
+          P: [Function: bound
+            ],
+          R: [Function: bound
+            ],
+          U: [Function: bound _$handle
+            ],
+          X: [Function: bound
+            ]
+        }
+    },
+    _options: { heartbeatInterval: 30000,
+       reconnectIntervalIncrement: 4000,
+       maxReconnectInterval: 180000,
+       maxReconnectAttempts: 5,
+       rpcAckTimeout: 6000,
+       rpcResponseTimeout: 10000,
+       subscriptionTimeout: 2000,
+       maxMessagesPerPacket: 100,
+       timeBetweenSendingQueuedPackages: 16,
+       recordReadAckTimeout: 15000,
+       recordReadTimeout: 15000,
+       recordDeleteTimeout: 15000,
+       path: '/deepstream',
+       mergeStrategy: [Function: REMOTE_WINS
+        ],
+       recordDeepCopy: true,
+       nodeSocketOptions: null
+    },
+    isReady: false,
+    isDestroyed: false,
+    hasProvider: false,
+    '_$data': {},
+    version: null,
+    _eventEmitter: Emitter {},
+    _queuedMethodCalls: [],
+    _writeCallbacks: {},
+    _mergeStrategy: [Function: REMOTE_WINS
+    ],
+    _ackTimeoutRegistry: 
+     AckTimeoutRegistry {
+       _options: { heartbeatInterval: 30000,
+          reconnectIntervalIncrement: 4000,
+          maxReconnectInterval: 180000,
+          maxReconnectAttempts: 5,
+          rpcAckTimeout: 6000,
+          rpcResponseTimeout: 10000,
+          subscriptionTimeout: 2000,
+          maxMessagesPerPacket: 100,
+          timeBetweenSendingQueuedPackages: 16,
+          recordReadAckTimeout: 15000,
+          recordReadTimeout: 15000,
+          recordDeleteTimeout: 15000,
+          path: '/deepstream',
+          mergeStrategy: [Function: REMOTE_WINS
+            ],
+          recordDeepCopy: true,
+          nodeSocketOptions: null
+        },
+       _client: 
+        Client {
+          _url: 'adn-iot-pro.sev.alestis: 6020',
+          _options: [Object
+            ],
+          _connection: [Object
+            ],
+          _callbacks: [Object
+            ],
+          _ackTimeoutRegistry: [Circular
+            ],
+          event: [Object
+            ],
+          rpc: [Object
+            ],
+          record: [Object
+            ],
+          presence: [Object
+            ],
+          _messageCallbacks: [Object
+            ]
+        },
+       _register: {},
+       _counter: 1
+    },
+    _resubscribeNotifier: 
+     ResubscribeNotifier {
+       _client: 
+        Client {
+          _url: 'adn-iot-pro.sev.alestis: 6020',
+          _options: [Object
+            ],
+          _connection: [Object
+            ],
+          _callbacks: [Object
+            ],
+          _ackTimeoutRegistry: [Object
+            ],
+          event: [Object
+            ],
+          rpc: [Object
+            ],
+          record: [Object
+            ],
+          presence: [Object
+            ],
+          _messageCallbacks: [Object
+            ]
+        },
+       _resubscribe: [Function: bound
+        ],
+       _isReconnecting: false,
+       _connectionStateChangeHandler: [Function: bound
+        ]
+    },
+    _readAckTimeout: -1,
+    _responseTimeout: -1,
+    _callbacks: { error: [
+            [Function: bound
+            ]
+        ],
+       destroyPending: [
+            [Function: bound
+            ]
+        ],
+       delete: [
+            [Function: bound
+            ]
+        ],
+       discard: [
+            [Function: bound
+            ]
+        ]
+    }
+}
