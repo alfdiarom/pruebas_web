@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+
+    <script src="jquery.js"></script>    
+    <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="moment.min.js"></script>
+    <script src="cuenta_atras.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    
+</head>
+
+
+
+<body onload="traer()"  style="color:white">
+<!-- <body style="color:white"> -->
+    <h1></h1>
+    <div class="container mt-4">
+            <h2 class="text-center">ALESTIS PUERTO REAL</h2>
+            <!-- <input type="text" id="formulario" class="form-control"> -->
+            
+            <div class="container-fluid">
+            <!-- unos cuantos espacios vacios -->
+            </br></br><br></br> 
+                    <div class="text-center">
+                            <h1 id="contenido"  class="display-1"></h1>
+                    </div>
+                </br></br><br></br> 
+                        <div class="text-center">
+                                <h1 id="fecha"  class="display-1"></h1>
+                        </div>
+<!-- ponemos lo que queda para la actuaizacion -->
+                </br></br><br></br> 
+                <div class="text-center" >
+                        <h2 id="tiempo_restante"  class="display-1"></h2>
+                </div>
+            </div>
+            
+    </div>
+
+    
+<!-- debe cargar al final el js -->
+    <script src="objetos.js"></script>
+
+
+    <script>
+           setInterval(traer,60000);
+           //setInterval(updateClock,60000);
+    </script>
+
+</body>
+
+<style>
+                body { background-color: black; }
+</style>
+
+</html>
